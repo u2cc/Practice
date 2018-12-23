@@ -18,7 +18,7 @@ public class NaughtyResource implements AutoCloseable
     * @throws Exception Exception that might be thrown during closure of this
     *    resource.
     */
-   @Override
+  // @Override
    public void close() throws Exception
    {
       throw new Exception("Exception at closure.");

@@ -29,6 +29,8 @@ public class MethodReferencePractice {
 		
 		methodMap.get("MethodTwo").accept(mRP);
 		
+		
+				
 		System.out.println(mRP.number);
 	}
 }
